@@ -77,6 +77,18 @@ class Responder
     }
 
     /**
+     * Print out unauthorized error message
+     *
+     * @param  string  $message
+     * @param  integer $code
+     * @return \Illuminate\Http\Response
+     */
+    public function unauthorized($message = 'UNAUTHORIZED', $code = 401)
+    {
+        return $this->message($message, [], $code);
+    }
+
+    /**
      * Print out forbidden message
      *
      * @param  string $message

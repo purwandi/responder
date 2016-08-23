@@ -13,8 +13,8 @@
 
     "require": {
         "php": ">=5.5.9",
-        "illuminate/support": "5.2.*",
-        "illuminate/database": "5.2.*",
+        "illuminate/support": "5.3.*",
+        "illuminate/database": "5.3.*",
         "league/fractal": "^0.13.0"
     },
 
